@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Escuela-de-Codigo-C-13/static/css/main.da99b8e4.css",
+    "main.js": "/Escuela-de-Codigo-C-13/static/js/main.8bc29b7b.js",
+    "static/media/inhauguracion.jpeg": "/Escuela-de-Codigo-C-13/static/media/inhauguracion.a70dc1a30ebc5cd30063.jpeg",
+    "index.html": "/Escuela-de-Codigo-C-13/index.html",
+    "main.da99b8e4.css.map": "/Escuela-de-Codigo-C-13/static/css/main.da99b8e4.css.map",
+    "main.8bc29b7b.js.map": "/Escuela-de-Codigo-C-13/static/js/main.8bc29b7b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.da99b8e4.css",
+    "static/js/main.8bc29b7b.js"
+  ]
+}
