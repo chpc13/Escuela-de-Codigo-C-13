@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.Career-tittle{
+    color: rgb(255, 196, 0);
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* max-width: 900px; */
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 16px;
+    padding: 30px 40px;
+    margin: 16px auto;
+    cursor: pointer;
+    height: 400px;
+    width: 100%;
+    
+}
+
+.Frontend{
+    height: 300px;
+    background-color: #8ad414;
+    margin-bottom: 20px;
+    border-radius: 50px;
+    width: 400px;
+}
+
+.Backend{
+    height: 300px;
+    background-color: #0f759e;
+    margin-bottom: 20px;
+    border-radius: 50px;
+    width: 400px;
+}
+
+.Fullstack{
+    height: 300px;
+    background-color: #24c816;
+    margin-bottom: 20px;
+    border-radius: 50px;
+    width: 400px;
+}
+.Frontend:hover {
+    background-color: rgb(187, 137, 43); 
+}
+.Backend:hover {
+    background-color: rgb(47, 182, 119);
+}
+.Fullstack:hover {
+    background-color: indianred;
+   
+    
+}
+.Frontend1{
+    height: 250px;
+    border-radius: 50px;
+    width: 400px;
+}
+.Backend1{
+    height: 250px;
+    border-radius: 50px;
+    width: 400px;
+}
+.Fullstack1{
+    height: 250px;
+    border-radius: 50px;
+    width: 400px;
+}   

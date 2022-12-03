@@ -1,0 +1,59 @@
+/* ----- ESTILOS PARA LOGIN ------ */
+:root {
+    --azul: #bdda17;
+    --azulClaro: rgba(94, 161, 255, 0.106);
+    --verde: #cc9f0d;
+    --blanco: #131111;
+    --gris: #22b85b;
+    --negro: #000000;
+    
+}
+
+* {
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: aquamarine;
+}
+.login {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+.login__imagen {
+    width: 50vw;
+    height: 100vh;
+    background-color: var(--gris);
+}
+.login__return {
+    color: var(--gris);
+    text-decoration: none;
+    font-size: 3rem;
+    margin-bottom: 120px;
+}
+.login__form {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: var(--azulClaro);
+    padding: 0 60px;
+}
+.login__form--fill {
+    display: flex;
+    flex-direction: column;
+}
+.login__tittle--fill {
+    color: var(--azul);
+    font-size: 1.5rem;
+    margin-bottom: 80px;
+}
+input {
+    width: 50%;
+    border-style: none;
+    padding: 1rem 2rem;
+    margin: 10px 0;
+}

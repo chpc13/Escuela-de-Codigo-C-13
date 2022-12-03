@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(120, 93, 54);
+}
+
+
+.Career-tittle {
+background-color: rgb(17, 67, 133);
+animation:changeBg 5s infinite alternate linear;
+}
+
+@keyframes changeBg {
+    0% {
+        background: rgb(58, 230, 35);
+    }
+    25% {
+        background: rgb(5, 69, 94);
+    }
+    50% {
+        background: rgb(51, 187, 241);
+    }
+    75% {
+        background: rgb(184, 196, 12);
+     }
+      100% {
+       
+    }
+}
+
+.foot ul a {
+    background-color: chocolate;
+    font-size: 2.5rem;
+    color: rgb(67, 6, 93);
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+ }
+
+ .slogan{
+    text-align:center;
+    justify-content:center;
+    margin: 25px;
+    color: rgb(21, 59, 9);
+    background-color: rgb(40, 190, 140);
+}
+
+.links-referencias{
+margin: 0px;
+padding: 0px;
+display: flex;
+flex-direction: column;
+color:black ;
+}
+.footer-redes{
+    margin: 50px;
+    width: 180%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    align-items: center;
+    border-radius: 30px;
+    color: black;
+    
+}
+.botones{
+    color: rgb(26, 41, 157);
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 500px;
+
+}
+.botones i{
+    color: chartreuse;
+    font-size: 30px;
+
+}
+.logooo{
+    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+    }
