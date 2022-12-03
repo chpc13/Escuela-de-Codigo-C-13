@@ -6,15 +6,16 @@
 }
 .contenedor-noticias{
     margin: 25px;
-    height: 500px;
+    height: 100%;
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     border-color:rgb(5, 105, 43);
     background-color: blueviolet;
     border-radius: 20px;
-    overflow: hidden;
 }
 
 .img{

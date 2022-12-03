@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .navbar{
-background-color: rgb(162, 209, 190);
+    background-color: #ffeb3b
 }
 .navbar {
     width: 99%;
@@ -30,6 +30,10 @@ background-color: rgb(162, 209, 190);
 }
 .navbar__box {
     list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: nowrap;
     
 }
 .navbar__list {

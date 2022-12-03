@@ -1,12 +1,11 @@
 /* ----- ESTILOS PARA LOGIN ------ */
 :root {
-    --azul: #bdda17;
     --azulClaro: rgba(94, 161, 255, 0.106);
     --verde: #cc9f0d;
     --blanco: #131111;
     --gris: #22b85b;
     --negro: #000000;
-    
+    text-decoration: none;
 }
 
 * {
@@ -15,7 +14,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    background-color: aquamarine;
 }
 .login {
     width: 100vw;
