@@ -17,7 +17,7 @@
 }
 .navbar__logo {
     color: var(--negro);
-    line-height: 1.2rem;
+    line-height: 2rem;
 }
 .navbar__logo span {
     color: var(--azul);
