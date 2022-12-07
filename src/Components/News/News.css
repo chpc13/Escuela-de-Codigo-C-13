@@ -4,7 +4,7 @@
     box-sizing: border-box;
     
 }
-.contenedor-noticias{
+.contenedor{
     margin: 25px;
     height: 100%;
     width: 100%;
@@ -16,6 +16,7 @@
     border-color:rgb(5, 105, 43);
     background-color: blueviolet;
     border-radius: 20px;
+   
 }
 
 .img{
@@ -26,7 +27,8 @@
 }
 
 .resumen{
-    font-size: 15px;
+    font-size: 14px;
+    font-weight: lighter;
     color: rgb(18, 23, 160);
 }
 .notinoticia{
@@ -38,6 +40,8 @@
     border: 1px solid rgb(20, 86, 161);
     justify-content: center;
     text-align: center;
-    font-weight: 100px;
+    font-weight: 10px;
     cursor: pointer;
+    padding: 20px;
+    overflow: hidden;
 }
