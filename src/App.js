@@ -1,4 +1,3 @@
-import React from "react";
 import React, { useState, useEffect } from "react";
 import Navbar from "./Components/Navbar/Navbar.jsx";
 import Login from "./Components/Login/Login.jsx";

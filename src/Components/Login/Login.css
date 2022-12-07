@@ -43,6 +43,7 @@
 .login__form--fill {
     display: flex;
     flex-direction: column;
+
 }
 .login__tittle--fill {
     color: var(--azul);
